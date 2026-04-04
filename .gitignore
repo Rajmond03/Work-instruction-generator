@@ -1,3 +1,4 @@
+
 001_output/
 006_logs/
 003_images/
@@ -6,5 +7,7 @@ __pycache__/
 *.pyc
 *.log
 *.tmp
+*.jpg
 ~$*.docx
 ~$*.xlsx
+
