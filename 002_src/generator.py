@@ -175,11 +175,11 @@ def formatalt_felsorolas(lista) -> RichText:
     for i, sor in enumerate(lista):
         if ":" in sor:
             cimke, leiras = sor.split(":", 1)
-            rt.add("• ")
-            rt.add(f"{cimke.strip()}:", bold=True)
-            rt.add(f"{leiras}")
+            rt.add("• ", font='Arial')
+            rt.add(f"{cimke.strip()}:", bold=True, font='Arial')
+            rt.add(f"{leiras}", font='Arial')
         else:
-            rt.add(f"• {sor}")
+            rt.add(f"• {sor}", font='Arial')
 
         if i < len(lista) - 1:
             rt.add("\n")
