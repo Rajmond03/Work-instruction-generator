@@ -37,7 +37,7 @@ def dokumentum_kod_generalas() -> str:
 
 
 def fajlnev_generalas(cim_hu: str) -> str:
-    alap = "GWP-HU-PR-WI-xxx_"
+    alap = "GWP-HU-PR-WI-xxx"
     tiszta = fajlnev_tisztitas(cim_hu)
     return f"{alap}_{tiszta}"
 
