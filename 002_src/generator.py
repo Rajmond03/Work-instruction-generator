@@ -207,16 +207,22 @@ Szabályok:
 - rövid, szakmai, gyakorlatias megfogalmazás
 - ne írj mellébeszélést
 - a konkrét folyamatból indulj ki
-- a minőségi és balesetvédelmi részek felsorolás legyenek
-- minden felsorolási elem így kezdődjön: Rövid címke: magyarázat
-- például: Tűzvédelem: ...
-- ne hivatkozz konkrét jogszabályra
-- ne találj ki irreális technológiai részleteket
-- a szükséges eszközök csak konkrét eszköznevek legyenek
-- ne írj általános kategóriát (pl. "szerszám")
-- az eszközök rövid megnevezések legyenek
-- NE használj ```json vagy ``` jelölést
-- kizárólag JSON-t adj vissza
+- ha nincs elegendő információ, hagyd ki az adott elemet
+- ne találj ki nem szereplő lépést vagy eszközt
+
+Minőségi és balesetvédelmi rész:
+- felsorolás legyen
+- a balesetvédelem minden esetben az emberi baleset megelőzésére vonatkozzon
+- minden elem formátuma:
+  Rövid címke: magyarázat
+
+Eszközök:
+- csak konkrét eszköznevek
+- rövid megnevezések
+- csak nem beépülő eszközök
+- alkatrész, alapanyag, beépülő elem TILOS
+
+Kizárólag JSON-t adj vissza, magyarázat nélkül.
 
 Folyamatlépések:
 {folyamat_szoveg}
